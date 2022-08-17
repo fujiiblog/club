@@ -1,0 +1,888 @@
+@charset "utf-8";
+
+@media screen and (min-width : 375px) {  
+
+body{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+
+.image_in{
+  display: flex;
+  padding-left: 1rem;
+}
+
+.logo img{
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.sub p{
+  font-size: 10px;
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+
+.first img{
+  width: 100%;
+}
+
+.search_in img{
+  z-index: 0;
+  width: 100%;
+
+}
+
+.search_in3 img{
+  z-index: 1;
+  width: 100%;
+  margin-top: -5rem;
+}
+
+.title_in{
+  z-index: 2;
+  margin-top: -13rem;
+  text-decoration:underline;
+  padding-left: 1rem;
+}
+
+.search_in4{
+  display: flex;
+}
+
+.search_in4 img{
+  width: 80%;
+}
+
+.search_in5 {
+  display: flex;
+}
+
+.search_out{
+margin-left: 1rem;
+margin-top: -0.5rem;
+}
+
+.search_out2{
+  margin-left: 3rem;
+  margin-top: -0.5rem
+}
+
+.search_out3{
+margin-left: 2.3rem;
+margin-top: -0.5rem;
+}
+
+.search_out4{
+margin-left: 2.4rem;
+margin-top: -0.5rem;
+}
+
+.about_in2 img{
+  width: 100%;
+}
+
+.about_in3{
+  margin-top: -40rem;
+  color: #fff;
+  margin-left: 3rem;
+}
+
+.about_in3_1{
+  text-decoration:underline;
+  margin-left: -1.8rem;
+}
+
+.about_in4 img{
+  z-index: 0;
+  width: 100%;
+}
+
+.about_in5{
+z-index: 1;
+width: 100%;
+margin-top: -30rem;
+}
+
+.event_in2 img{
+  width: 100%;
+}
+
+.event_in3 h2{
+  margin-top: -36rem;
+  text-decoration:underline;
+  padding-left: 1rem;
+}
+
+.event_in4 img{
+  width: 100%;
+}
+
+.event_in5 p{
+  text-align: center;
+}
+
+.event_in6{
+  display: flex;
+}
+
+.event_in6 img{
+  width: 90%;
+  margin-left: 0.7rem;
+}
+
+.news_in{
+  text-decoration:underline;
+  padding-left: 1rem;
+}
+
+.news_in2 li{
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.news_in3{
+  margin-left: 16rem;
+  margin-bottom: 5rem;
+}
+
+.contact{
+  margin:  2rem 0rem  5rem 0rem;
+  padding-left: 3rem;
+  margin-top: 3rem;
+}
+
+.contact_in{
+  text-decoration:underline;
+  margin-left: -2rem;
+  margin-bottom: 2rem;
+}
+
+.item{
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+
+.item p{
+  width: 400px;
+}
+
+.item_in{
+  margin: 0.5rem 0 0 0;
+  width: 300px;
+}
+
+.btn{
+  margin: 1rem 0 0 13rem;
+  width: 100px;
+}
+
+iframe {
+  width: 100%;
+}
+
+
+footer{
+  background-color: #401e1e;
+  text-align: center;
+  width: 375px;
+}
+
+footer p { 
+  color: #fff;
+}
+
+.follow-me{
+  display: flex;
+  margin-left: 3.7rem;
+  list-style: none;
+}
+}
+
+
+/*===============================================
+●タブレット用CSS 画面の横幅が768px以上のとき
+===============================================*/
+@media (min-width: 768px) {
+  .image_in{
+    display: flex;
+  }
+  
+  .image_in h2{
+    margin: 2rem 0 0 2rem;
+  }
+  
+  .logo img{
+    width: 60%;
+    margin: 1rem 0 0 1rem;
+  }
+  
+  .sub{
+    font-size: 10px;
+    margin: -1.5rem 0 0 2rem;
+  }
+  
+  nav{
+    margin:2rem 0 -1rem 41rem;
+  }
+  
+  nav ul{
+    list-style: none;
+    overflow: hidden;
+  }
+   
+  nav li {
+    width: 70px;
+    text-align: center;
+    float: left;
+    height: 50px;
+    line-height: 130px;
+    margin-right: 2px;
+  }
+   
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .star{
+    height: 80px;
+  }
+  
+  .first img{
+    margin: 1rem 0 0 0;
+    width: 100%;
+  }
+  
+  .search_in{
+    z-index: 0;
+    margin-top: 5rem;
+  }
+
+  .search_in2{
+    z-index: 1;
+    margin-top: 15rem;
+  }
+
+  .title_in{
+    z-index: 2;
+    margin-top: -20rem;
+    margin-left: 9rem;
+    text-decoration:underline;
+  }
+  
+  .search_in3{
+    z-index: 1;
+    margin:-22rem 0 0 7.5rem;
+  }
+
+  .search_in4{
+    display: flex;
+    margin: 2rem 0 0 8rem;
+  }
+  
+  .search_in4 img{
+    margin: 0 1rem;
+  }
+
+  .search_in5{
+    display: flex;
+    margin-left: -1.8em;
+    margin-top: 1rem;
+  }
+  
+  .search_out{
+    margin-left: 13.5rem;
+  }
+  .search_out2{
+    margin-left: 7.4rem;
+  }
+  .search_out3{
+    margin-left: 6.6rem;
+  }
+  
+  .search_out4{
+    margin-left: 7rem;
+  }
+  
+  .about_in{
+    display: flex;
+  }
+  
+  .about_in2 img{
+    z-index: 0;
+    width: 200%;
+    margin-top: 11rem;
+    margin-left: 0.6rem;
+  }
+  
+  .about_in3{
+    z-index: 1;
+    margin-left: -10rem;
+    margin-top: 15rem;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .about_in3 h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .about_in3_1{
+    text-decoration:underline;
+    margin-left: -1rem;
+  }
+
+  .about_in3 p{
+    width: 350px;
+    margin-top: 2rem;
+  }
+  
+  .about_in4 img{
+    z-index: 1;
+    margin-top: 5rem;
+    margin-left: -2em;
+    width: 150%;
+  }
+  
+  .about_in5{
+    z-index: 3;
+    margin-left: -15rem;
+    margin-top: 8rem;
+  }
+  
+  .event_in{
+    z-index: 0;
+    display: flex;
+    background-color: #f6f4ee;
+    height: 900px;
+    width: 768px;
+  }
+
+  .event_in2 img{
+    z-index: 1;
+    width: 500px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    }
+
+    .event_in3 h2{
+      margin-left: -30rem;
+      margin-top: 3rem;
+      text-decoration:underline;
+    }
+
+    .event_in4 img{
+      z-index: 2;
+      width: 350px;
+      margin-left: -26.5rem;
+      margin-top: 7rem;
+    }
+
+    .event_in5{
+      margin-top: 30rem;
+      margin-left: -24rem;
+    }
+
+    .event_in5 p{
+      width: 300px;
+    }
+  
+    .event_in6 {
+      display: flex;
+      margin-top: 37rem;
+      margin-left: -23rem;
+    }
+
+    .event_in6 img{
+      width: 200px;
+      padding: 0 0.5rem;
+    }
+
+  #news{
+    margin-left: 2rem;
+  }
+  
+  .news_in{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    text-decoration:underline;
+  }
+  
+  .news_in2{
+    margin: 1rem 0rem 0  12rem;
+    font-size: 12px;
+  }
+  .news_in2 li{
+    list-style: none;
+    padding-top: 2rem;
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .news_in3{
+    text-align: right;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 27rem;
+    margin-top: 3rem;
+  }
+  
+  .access{
+    margin: 8rem 0 0 0rem;
+  }
+  
+  .contact{
+    margin:  2rem 0rem  5rem 15rem;
+    margin-top: 3rem;
+  }
+
+  .contact_in{
+    text-decoration:underline;
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .item{
+    margin-top: 1rem;
+    margin-left: -1rem;
+  }
+
+  .item p{
+    width: 400px;
+  }
+
+  .item_in{
+    margin: 0.5rem 0 0 0;
+    width: 300px;
+  }
+  
+  .btn{
+    margin: 1rem 0 0 18rem;
+    width: 100px;
+  }
+
+  footer{
+    background-color: #401e1e;
+    text-align: center;
+    width: 768px;
+  }
+  
+  footer p { 
+    color: #fff;
+  }
+    
+  .follow-me {
+    list-style: none;
+    margin: 2rem 0 0.5rem 18rem;
+    padding-top: 6rem;
+    overflow: hidden;
+    padding-top: 1rem;
+  }
+  .follow-me li {
+    float: left;
+    margin: 0 8px 8px 0;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*===============================================
+●ＰＣ用CSS 画面の横幅が1120px以上のとき
+===============================================*/
+@media (min-width: 1024px) {
+  .image_in{
+      display: flex;
+    }
+    
+    .image_in h2{
+      margin: 2rem 0 0 2rem;
+    }
+    
+    .logo img{
+      width: 60%;
+      margin: 1rem 0 0 1rem;
+    }
+    
+    .sub{
+      font-size: 10px;
+      margin: -1.5rem 0 0 2rem;
+    }
+    
+    nav{
+      margin:2rem 0 -1rem 41rem;
+    }
+    
+    nav ul{
+      list-style: none;
+      overflow: hidden;
+    }
+     
+    nav li {
+      width: 70px;
+      text-align: center;
+      float: left;
+      height: 50px;
+      line-height: 130px;
+      margin-right: 2px;
+    }
+     
+    nav li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 20px;
+    }
+    
+    .star{
+      height: 80px;
+    }
+    
+    .first img{
+      margin: 1rem 0 0 0;
+      width: 100%;
+    }
+    
+    .search_in{
+      z-index: 0;
+      margin-top: 5rem;
+    }
+  
+    .title_in{
+      z-index: 2;
+      margin-top: -30rem;
+      margin-left: 10rem;
+      text-decoration:underline;
+    }
+    
+    .search_in3{
+      z-index: 1;
+      margin:-22rem 0 0 7.5rem;
+    }
+  
+    .search_in4{
+      display: flex;
+      margin: 3rem 0 0 13.5rem;
+    }
+    
+    .search_in4 img{
+      margin: 0 1rem;
+    }
+  
+    .search_in5{
+      display: flex;
+      margin-left: -1.8em;
+      margin-top: 1rem;
+    }
+    
+    .search_out{
+      margin-left: 20rem;
+    }
+    .search_out2{
+      margin-left: 9.5rem;
+    }
+    .search_out3{
+      margin-left: 10rem;
+    }
+    
+    .search_out4{
+      margin-left: 9.2rem;
+    }
+    
+    .about_in{
+      display: flex;
+    }
+    
+    .about_in2 img{
+      z-index: 0;
+      width: 150%;
+      margin-top: 18rem;
+      margin-left: 4rem;
+    }
+    
+    .about_in3{
+      z-index: 1;
+      margin-left: -8rem;
+      margin-top: 20rem;
+      font-size: 20px;
+      color: #fff;
+    }
+  
+    .about_in3 h2{
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      margin-left: -8rem;
+    }
+  
+    .about_in3_1{
+      text-decoration:underline;
+      margin-left: -1rem;
+    }
+  
+    .about_in3 p{
+      width: 350px;
+      margin-top: 2rem;
+      margin-left: -8rem;
+    }
+    
+    .about_in4 img{
+      z-index: 2;
+      width: 150%;
+      margin-top: 11.8rem;
+      margin-left: 2.9em;
+    }
+    
+    .about_in5{
+      z-index: 3;
+      margin-left: -28rem;
+      margin-top: 14rem;
+    }
+    
+    .event_in{
+      z-index: 0;
+      display: flex;
+      background-color: #f6f4ee;
+      height: 900px;
+      width: 1120px;
+    }
+  
+    .event_in2 img{
+      z-index: 1;
+      width: 500px;
+      margin-left: 23rem;
+      margin-top: 2rem;
+      }
+  
+      .event_in3 h2{
+        margin-left: -30rem;
+        margin-top: 3rem;
+        text-decoration:underline;
+      }
+  
+      .event_in4 img{
+        z-index: 2;
+        width: 350px;
+        margin-left: -26.5rem;
+        margin-top: 7rem;
+      }
+  
+      .event_in5{
+        margin-top: 30rem;
+        margin-left: -24rem;
+      }
+  
+      .event_in5 p{
+        width: 300px;
+      }
+    
+      .event_in6 {
+        display: flex;
+        margin-top: 37rem;
+        margin-left: -24.5rem;
+      }
+  
+      .event_in6 img{
+        width: 200px;
+        padding: 0 0.5rem;
+      }
+  
+    #news{
+      margin-left: 10rem;
+    }
+    
+    .news_in{
+      margin-left: 8rem;
+      margin-top: 3rem;
+      text-decoration:underline;
+    }
+    
+    .news_in2{
+      margin: 1rem 0rem 0  12rem;
+      font-size: 12px;
+    }
+    .news_in2 li{
+      list-style: none;
+      padding-top: 2rem;
+      font-size: 20px;
+      width: 400px;
+    }
+  
+    .news_in3{
+      text-align: right;
+      font-size: 20px;
+      width: 200px;
+      margin-left: 27rem;
+      margin-top: 3rem;
+    }
+    
+    .access{
+      margin: 10rem 0 0 0rem;
+    }
+    
+    .contact{
+      margin:  2rem 0rem  5rem 24rem;
+      margin-top: 3rem;
+    }
+  
+    .contact_in{
+      text-decoration:underline;
+      margin-left: -6rem;
+      margin-bottom: 2rem;
+    }
+    
+    .item{
+      margin-top: 1rem;
+      margin-left: -1rem;
+    }
+  
+    .item p{
+      width: 400px;
+    }
+  
+    .item_in{
+      margin: 0.5rem 0 0 0;
+      width: 300px;
+    }
+    
+    .btn{
+      margin: 1rem 0 0 18rem;
+      width: 100px;
+    }
+  
+    footer{
+      background-color: #401e1e;
+      text-align: center;
+      width: 1120px;
+    }
+    
+    footer p { 
+      color: #fff;
+    }
+      
+    .follow-me {
+      list-style: none;
+      margin: 2rem 0 0.5rem 29rem;
+      padding-top: 6rem;
+      overflow: hidden;
+      padding-top: 1rem;
+    }
+    .follow-me li {
+      float: left;
+      margin: 0 8px 8px 0;
+    }
+  
+
+  }
+  
+  
+  /* footerのSNSのCSS */
+  .follow-me li a::before {
+    background-color: #eee;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 16px;
+    height: 44px; /* Button height */
+    line-height: 44px; /* Button height */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    width: 44px; /* Button width */
+  }
+  .follow-me li a:hover::before {
+    background-color: #333;
+    color: #fff;
+  }
+  .follow-me li a[href*="amazon.co.jp"]::before,
+  .follow-me li a[href*="codepen.io"]::before         { content: "\f1cb"; }
+  .follow-me li a[href*="delicious.com"]::before      { content: "\f1a5"; }
+  .follow-me li a[href*="deviantart.com"]::before     { content: "\f1bd"; }
+  .follow-me li a[href*="digg.com"]::before           { content: "\f1a6"; }
+  .follow-me li a[href*="dribble.com"]::before        { content: "\f17d"; }
+  .follow-me li a[href*="dropbox.com"]::before        { content: "\f16b"; }
+  .follow-me li a[href*="facebook.com"]::before       { content: "\f09a"; }
+  .follow-me li a[href*="feedly.com"]::before         { content: "\f09e"; }
+  .follow-me li a[href*="flickr.com"]::before         { content: "\f16e"; }
+  .follow-me li a[href*="foursquare.com"]::before     { content: "\f180"; }
+  .follow-me li a[href*="github.com"]::before         { content: "\f09b"; }
+  .follow-me li a[href*="plus.google.com"]::before    { content: "\f0d5"; }
+  .follow-me li a[href*="b.hatena.ne.jp"]::before     { content: "\f027"; font-family: blogicon; }
+  .follow-me li a[href*="instagram.com"]::before      { content: "\f16d"; }
+  .follow-me li a[href*="last.fm"]::before            { content: "\f202"; }
+  .follow-me li a[href*="linkedin.com"]::before       { content: "\f0e1"; }
+  .follow-me li a[href*="nicovideo.jp"]::before       { content: "\f047"; font-family: blogicon; }
+  .follow-me li a[href*="pinterest.com"]::before      { content: "\f0d2"; }
+  .follow-me li a[href*="getpocket.com"]::before      { content: "\f265"; }
+  .follow-me li a[href*="reddit.com"]::before         { content: "\f1a1"; }
+  .follow-me li a[href*="skype.com"]::before,
+  .follow-me li a[href*="skype:"]::before             { content: "\f17e"; }
+  .follow-me li a[href*="slideshare.net"]::before     { content: "\f1e7"; }
+  .follow-me li a[href*="spotify.com"]::before        { content: "\f1bc"; }
+  .follow-me li a[href*="steamcommunity.com"]::before { content: "\f1b6"; }
+  .follow-me li a[href*="stumbleupon.com"]::before    { content: "\f1a4"; }
+  .follow-me li a[href*="tumblr.com"]::before         { content: "\f173"; }
+  .follow-me li a[href*="twitch.tv"]::before          { content: "\f1e8"; }
+  .follow-me li a[href*="twitter.com"]::before        { content: "\f099"; }
+  .follow-me li a[href*="vimeo.com"]::before          { content: "\f27d"; }
+  .follow-me li a[href*="vine.co"]::before            { content: "\f1ca"; }
+  .follow-me li a[href*="weibo.com"]::before          { content: "\f18a"; }
+  .follow-me li a[href*="whatsapp.com"]::before       { content: "\f232"; }
+  .follow-me li a[href*="wordpress.com"]::before,
+  .follow-me li a[href*="wordpress.org"]::before      { content: "\f19a"; }
+  .follow-me li a[href*="youtube.com"]::before        { content: "\f16a"; }
+  .follow-me li a[href$="/feed"]::before              { content: "\f09e"; }
+  .follow-me li a[href$="/subscribe"]::before         { content: "\f000"; font-family: blogicon; 
+  }
+  /* footerのSNSのCSS */
+  
+  .scroll-button {
+    z-index: 1;
+    background-color: #5f5f5f;
+    border-radius: 27px;
+    border: 2px solid #efefef;
+    box-shadow: #848484 0px 0px 3px 1px;
+    position: fixed;
+    bottom: 50px;
+    width: 50px;
+    right: 20px;
+    height: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .3s linear;
+    cursor: pointer;
+  }
+  .scroll-button:before {
+    content: "";
+    width: 14px;
+    height: 23px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background-color: white;
+  }
+    .scroll-button:after {
+    content: "";
+    border-width: 16px;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: #ff000000;
+    border-bottom-color: white;
+    border-top-color: #ff000000;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+  }
+
+    
+
